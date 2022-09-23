@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pyndyk Misha</title>
+
+	<style type="text/css">
+		*{
+			margin: 0;
+    		padding: 0;
+    		
+		}
+		#main_bg{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-image: url(images/bg.jpg);
+			
+		}
+		#main_photo{
+			height: 200px;
+			display: inline-block;
+			position: relative;
+			margin: 5px;
+			padding-left: 20px;
+
+			
+
+		}
+		#name{
+
+			display: inline-block;
+			font-size: 55px;
+			padding-left: 40px;
+			font-family: 'Comfortaa', cursive;
+  			font-weight: 2000;
+  			color: #222222;
+  			letter-spacing: 2px;
+		}
+		body{
+  			width: 100%;
+  			height: 100%;
+		}	
+
+		.about_me_div{
+			display: inline-block;
+			position: relative;
+			width: 550px;
+			height: 90%;
+			background-image: url(images/bg_2.jpg);
+			left: 50px;
+			border: 3px solid black;
+		}
+
+		#style_about{
+   			font-family: 'matura mt script capitals', cursive;
+   			font-weight: 2000;
+   			color: #2D313A;
+   			letter-spacing: 1px;
+   			font-size: 40px;
+  			position: relative;
+  			text-align: center;
+  			padding-bottom: 30px;
+  			padding-top: 10px;
+   			
+		}
+
+
+		#skills_style_text{
+			margin-top: 30px;
+		   	font-family: 'matura mt script capitals', cursive;
+   			font-weight: 1000px;
+   			color: #2D313A;
+   			letter-spacing: 2px;
+   			font-size: 40px;
+  			position: relative;
+  			text-align: center !important;
+  			margin-left: 140px;
+	
+		}
+		h2{
+			position: relative;
+
+  			
+		}
+
+		#skills_h2{
+			display: inline-block;
+			font-family: 'consolas', cursive;
+   			font-weight: 1000px;
+   			color: #2D313A;
+   			letter-spacing: 1px;
+   			font-size: 20px;
+  			position: relative;
+  			text-align: center !important;
+  			margin-left: 30px;
+  			
+		}
+
+		hr{
+			border-top: 4px solid black;
+			width: 100%;
+		}
+
+		h1{
+			position: fixed;
+			padding-left: 50px;
+			padding-top: 20px;
+		}
+
+		#sec_div{
+
+			margin-top: 30px;
+			display: inline-block;
+			
+			padding-right: 150px;
+			width: 550px;
+			margin-left: 650px;
+			
+		}
+
+		#fir_div{
+			margin-left: 50px;
+			margin-top: 30px;
+			display: inline-block;
+			position:absolute;
+
+
+		}
+
+		h3{
+			font-size: 23px;
+			font-family: "FRANKLIN GOTHIC MEDIUM", Comfortaa;
+			
+			margin-left: 5px;
+		}
+
+
+		#human_ava{
+			width: 50px;
+			margin-left: 20px;
+		}
+
+		#rectangle{
+
+			display: inline-block;
+		    width:68px;
+		    height:5px;
+		    background:#2FFC0A;
+		    
+		}
+		#rectangle2{
+			display: inline-block;
+		    width:134px;
+		    height:5px;
+		    background:#2FFC0A;
+		}
+
+		#rectangle3{
+			display: inline-block;
+		    width:76px;
+		    height:5px;
+		    background:#2FFC0A;
+		    
+		}
+
+		#rectangle4{
+			display: inline-block;
+		    width:90px;
+		    height:5px;
+		    background:#2FFC0A;
+		    
+		}
+
+		#rectangle_grey{
+			display: inline-block;
+		    width:132px;
+		    height:5px;
+		    background:grey;
+		    	
+		}
+
+		#rectangle_grey1{
+			display: inline-block;
+		    width:66px;
+		    height:5px;
+		    background:grey;
+		    	
+		}
+
+		#rectangle_grey2{
+			display: inline-block;
+		    width:124px;
+		    height:5px;
+		    background:grey;
+		    	
+		}
+		#rectangle_grey3{
+			display: inline-block;
+		    width:110px;
+		    height:5px;
+		    background:grey;
+		    	
+		}
+
+		#table_2{
+			margin-top: 30px;
+			margin-left: 80px;
+		}
+
+
+		#rectangle_grey_fet{
+			display: inline-block;
+		    width: 40px;
+		    height:5px;
+		    background:grey;
+		    	
+		}
+		#rectangle_fet{
+			display: inline-block;
+		    width:60px;
+		    height:5px;
+		    background:#2FFC0A;
+		    
+		}
+
+		#rectangle_grey_fet2{
+			display: inline-block;
+		    width:54px;
+		    height:5px;
+		    background:grey;
+		    	
+		}
+		#rectangle_fet2{
+			display: inline-block;
+		    width:46px;
+		    height:5px;
+		    background:#2FFC0A;
+		    
+		}
+
+		#rectangle_grey_fet3{
+			display: inline-block;
+		    width:38px;
+		    height:5px;
+		    background:grey;
+		    	
+		}
+		#rectangle_fet3{
+			display: inline-block;
+		    width:62px;
+		    height:5px;
+		    background:#2FFC0A;
+		    
+		}
+		#rectangle_grey_fet4{
+			display: inline-block;
+		    width:20px;
+		    height:5px;
+		    background:grey;
+		    	
+		}
+		#rectangle_fet4{
+			display: inline-block;
+		    width:80px;
+		    height:5px;
+		    background:#2FFC0A;
+		    
+		}
+		#table_3{
+			margin-left: 100px;
+			margin-top: 30px;
+		}
+
+		#xd{
+			width: 100px;
+			margin-left: 50px;
+			
+		}
+
+		#image_xd{
+			margin: 10px;
+			width: 1000px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div id="main_bg">
+		<div class="about_me_div" id="fir_div">
+			<img src="images/bruh.png" id="main_photo">
+			<h1 id="name">Michael <br>
+				Pyndyk
+
+			</h1> 
+			<hr>
+			<h2 id="style_about">About me</h2>
+
+
+<table>
+  <tr>
+  	<th><img src="images/human.png" id="human_ava"></th>
+    <th><h2>:</h2></th>
+    <td><h3>Male, 14 y.o.</h3>
+
+  </tr>
+  <tr>
+    <th><img src="images/ua.png" id="human_ava"></th>
+    <td><h2>:</h2></td>
+    <td><h3>Ukraine, Kropyvnytskyi</h3></td>
+  </tr>
+  <tr>
+    <th><img src="images/mobile.png" id="human_ava"></th>
+    <td><h2>:</h2></td>
+    <td><h3>+380 99 468-96-03</h3></td>
+  </tr>
+
+  <tr>
+    <th><img src="images/discord.png" id="human_ava"></th>
+    <td><h2>:</h2></td>
+    <td><h3>strom#7099</h3></td>
+  </tr>
+</table>
+		</div>
+
+
+		<div id="sec_div" class="about_me_div">
+		<h2 id="skills_style_text">My skills</h2>
+		<table id="table_2">
+		  <tr>
+		  	
+		    <th><h2 id="skills_h2">After Effects </h2></th>
+		    <th><div id="rectangle"></div><div id="rectangle_grey"></div></th>
+		    <td><h3>ㅤ34%</h3>
+
+		  </tr>
+		  <tr>
+		    <th><h2 id="skills_h2">Unity </h2></th>
+		    <th><div id="rectangle2"></div><div id="rectangle_grey1"></div></th>
+		    <td><h3>ㅤ67%</h3>
+		  </tr>
+		  <tr>
+		    <th><h2 id="skills_h2">Node.js </h2></th>
+		    <th><div id="rectangle3"></div><div id="rectangle_grey2"></div></th>
+		    <td><h3>ㅤ38%</h3>
+		  </tr>
+
+		  <tr>
+		    <th><h2 id="skills_h2">Python </h2></th>
+		    <th><div id="rectangle4"></div><div id="rectangle_grey3"></div></th>
+		    <td><h3>ㅤ45%</h3>
+		  </tr>
+		</table>
+
+
+		<h2 id="skills_style_text">My features</h2>
+		<table id="table_3">
+		  <tr>
+		    <th><h2 id="skills_h2">Energy</h2></th>
+		    <th><div id="rectangle_fet"></div><div id="rectangle_grey_fet"></div></th>
+		    <td><h3>ㅤ60%</h3>
+
+		  </tr>
+		  <tr>
+		    <th><h2 id="skills_h2">Industriousness</h2></th>
+		    <th><div id="rectangle_fet2"></div><div id="rectangle_grey_fet2"></div></th>
+		    <td><h3>ㅤ46%</h3>
+		  </tr>
+		  <tr>
+		    <th><h2 id="skills_h2">Emotionally stable</h2></th>
+		    <th><div id="rectangle_fet3"></div><div id="rectangle_grey_fet3"></div></th>
+		    <td><h3>ㅤ62%</h3>
+		  </tr>
+
+		  <tr>
+		    <th><h2 id="skills_h2">Friendly</h2></th>
+		    <th><div id="rectangle_fet4"></div><div id="rectangle_grey_fet4"></div></th>
+		    <td><h3>ㅤ80%</h3>
+		  </tr>
+		</table>
+
+		<div id="image_xd">
+		<img src="images/unity.png" id="xd">
+		<img src="images/python.png" id="xd">
+		<img src="images/node.png" id="xd">
+		<img src="images/aff.png" id="xd">
+		</div>
+
+
+			
+		</div>
+
+
+
+	</div>
+
+
+
+</body>
+</html>
